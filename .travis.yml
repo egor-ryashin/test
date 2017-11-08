@@ -16,4 +16,6 @@ matrix:
         - ./script.sh
       after_failure:
         - echo test
-        - sudo cat /var/log/syslog | tail
+          next line
+        - sudo
+          cat /var/log/syslog | tail
