@@ -13,7 +13,7 @@ matrix:
   include:
     - sudo: required
       script:
-        - script.sh
+        - ./script.sh
       after_failure:
         - echo test
-        - cat /var/log/syslog | tail
+        - sudo cat /var/log/syslog | tail
