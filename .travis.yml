@@ -20,6 +20,5 @@ matrix:
         - sudo
           cat /var/log/syslog | tail ;
           for v in a b ; do
-            echo $v 
-          done ;
-          echo end
+          echo $v 
+          done 
