@@ -19,8 +19,8 @@ matrix:
           next line
         - sudo
           cat /var/log/syslog | tail ;
-          echo a > 1.log
-          echo b > 2.log
+          echo a > 1.log ;
+          echo b > 2.log ;
           for v in ~/* ; do
           echo $v ;
           done 
