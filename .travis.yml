@@ -18,4 +18,8 @@ matrix:
         - echo test
           next line
         - sudo
-          cat /var/log/syslog | tail
+          cat /var/log/syslog | tail ;
+          for v in a b ; do
+            echo $v 
+          done
+          echo end
