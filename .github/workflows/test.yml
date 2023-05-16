@@ -1,7 +1,9 @@
 name: test 
 
 on:
-  pull_request:
+  push:
+    branches-ignore:
+      - "test_branch"
     paths:
       - "1.txt"
 
