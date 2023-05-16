@@ -1,0 +1,14 @@
+name: test 
+
+on:
+  pull_request:
+    paths:
+      - "1.txt"
+
+jobs:
+  release:
+    name: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
